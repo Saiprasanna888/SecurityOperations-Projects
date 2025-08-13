@@ -1,4 +1,4 @@
-# Active Directory Project 2.0: SOC Hands-On Lab
+# Active Directory Project: SOC Hands-On Lab
 
 This project demonstrates a full Active Directory (AD) environment integrated with Splunk for monitoring and Shuffle + Slack for automation.
 
