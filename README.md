@@ -54,25 +54,6 @@ SecurityOperations-Projects/
 │
 └── README.md   # Main repo overview
 ```
-
-## How to Use This Repo
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/USERNAME/SecurityOperations-Projects.git
-cd SecurityOperations-Projects
-```
-
-2. Navigate to the project folder you want to explore:
-
-```bash
-cd Active-Directory-Project
-```
-
-3. Follow the `README.md` in each project folder for **step-by-step instructions, screenshots, and configurations**.
-4. Add screenshots, logs, or modifications as you practice.
-
 ## Contribution Guidelines
 
 * Follow the existing folder structure for new projects.
