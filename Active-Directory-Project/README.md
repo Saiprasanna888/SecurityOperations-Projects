@@ -151,7 +151,3 @@ Include screenshots for each step in `screenshots/` folder, e.g.:
 [MIT License](LICENSE)
 
 ---
-
-If you want, I can also **create a ready-made folder structure with all the README files for each part** so that your GitHub repo is fully professional and you just need to fill in screenshots and logs.
-
-Do you want me to do that next?
