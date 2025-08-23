@@ -137,3 +137,10 @@ Include screenshots for each part in the `screenshots/` folder, such as:
 * Expand detection rules in Wazuh for advanced threats.  
 
 ---
+## Demo Video
+
+Check out the demo video showcasing the Wazuh → Shuffle → TheHive integration:
+
+[![Watch the demo](https://drive.google.com/uc?id=1IibU-R9xDynVkvHqOsEMc5wwyxpwekww)](https://drive.google.com/file/d/1IibU-R9xDynVkvHqOsEMc5wwyxpwekww/view?usp=drivesdk)
+
+
