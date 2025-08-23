@@ -1,16 +1,41 @@
 # Part 2: Windows Client & Wazuh Agent
 
-## Description
-Install and configure the Wazuh agent on Windows 10 client to detect suspicious activity.
+## Description  
+The Wazuh agent is installed on a Windows 10 client to monitor system events and forward alerts to the Wazuh Manager for centralized analysis.
 
-## Tasks
-- Download and install Wazuh agent
-- Configure agent to connect to Wazuh Manager
-- Test log forwarding and event detection
-- Simulate suspicious activity
+## Tasks  
 
-## Notes
-Include screenshots of:
-- Wazuh agent installation
-- Configuration file edits
-- Event detection on Windows client
+### 1. Download & Install Agent  
+- Download the Windows Wazuh agent MSI package from the official site.  
+- Run the installer and complete setup with default options.  
+
+### 2. Configure Agent  
+- Edit `ossec.conf` to point to your Wazuh Manager IP:  
+
+  ```xml
+  <server>
+    <address>MANAGER_IP</address>
+    <port>1514</port>
+  </server>
+  ```
+
+- Save the configuration file.  
+- Start the **Wazuh Agent** service from `services.msc` or using PowerShell:  
+
+  ```powershell
+  Start-Service wazuh-agent
+  ```
+
+### 3. Test Connectivity  
+- Check agent status with PowerShell:  
+
+  ```powershell
+  wazuh-agent.exe status
+  ```
+
+- Verify logs are received in Wazuh Manager (`alerts.json`).  
+
+### 4. Simulate Suspicious Activity  
+- Generate failed login attempts on the Windows client.  
+- Run a suspicious PowerShell command to trigger alerts.  
+- Confirm that the alerts are forwarded to the Wazuh Manager.  
