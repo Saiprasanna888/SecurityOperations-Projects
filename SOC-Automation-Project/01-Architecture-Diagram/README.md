@@ -11,5 +11,3 @@ This folder contains the architecture diagram for the SOC automation project.
 - TheHive Case Management
 - Email notifications to SOC analyst
 
-## File
-- SOC-Automation-Workflow-Diagram.png
