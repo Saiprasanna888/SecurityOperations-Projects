@@ -22,8 +22,8 @@ This repository contains **hands-on Security Operations Center (SOC) projects** 
 
 | Project Name             | Description                                                         | Status      | Folder                      |
 | ------------------------ | ------------------------------------------------------------------- | ----------- | --------------------------- |
-| **Active Directory 2.0** | Full AD environment setup with Splunk alerting & Shuffle automation | ✅ Completed | `Active-Directory-Project/` |
-| Future Project 1         | Placeholder for next SOC project                                    | ⬜ Planned   | `Future-Project-1/`         |
+| **Active Directory 1.0** | Full AD environment setup with Splunk alerting & Shuffle automation | ✅ Completed | `Active-Directory-Project/` |
+| **Wazuh-SOAR-TheHive Pipeline** | Wazuh + Shuffle SOAR + TheHive integration for automated SOC workflows      | ✅ Completed | `Wazuh-SOAR-TheHive/`       |
 | Future Project 2         | Placeholder for next SOC project                                    | ⬜ Planned   | `Future-Project-2/`         |
 
 > Each project includes step-by-step instructions, screenshots, configuration files, and sample logs.
@@ -42,7 +42,14 @@ SecurityOperations-Projects/
 │   ├── screenshots/
 │   └── README.md
 │
-├── Future-Project-1/
+├── Wazuh-SOAR-TheHive/
+│ ├── 01-Diagram/
+│ ├── 02-Wazuh-Setup/
+│ ├── 03-Shuffle-Setup/
+│ ├── 04-TheHive-Integration/
+│ ├── 05-Email-Alerts/
+│ ├── screenshots/
+│ └── README.md
 ├── Future-Project-2/
 │
 └── README.md   # Main repo overview
