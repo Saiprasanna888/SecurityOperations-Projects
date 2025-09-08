@@ -4,19 +4,20 @@ This repository contains **hands-on Security Operations Center (SOC) projects** 
 
 ## Objectives
 
-* Build **practical SOC skills** using industry-standard tools.
-* Learn to set up and monitor **Active Directory environments**.
-* Implement **log collection, alerting, and automated response** using Splunk and SOAR platforms.
-* Document and showcase **hands-on projects** for recruiters.
+* Gain **hands-on SOC experience** with real-world tools and scenarios.  
+* Set up and monitor **Active Directory and endpoint environments**.  
+* Implement **log collection, threat detection, and automated incident response** using SIEM and SOAR platforms.  
+* Build and document **practical projects** to showcase skills for cybersecurity roles.  
+
 
 ## Technologies & Tools
 
-* **Operating Systems:** Windows Server, Ubuntu Server
-* **Monitoring & SIEM:** Splunk Enterprise
-* **Automation & SOAR:** Shuffle
-* **Collaboration & Notification:** Slack, Email
-* **Cloud Platforms:** Vultr, Azure, AWS (optional)
-* **Others:** RDP, SMB, Firewalls, Active Directory
+* **Operating Systems:** Windows Server (AD, RDP, SMB), Ubuntu Server (Syslog, Services)  
+* **Monitoring & SIEM:** Splunk Enterprise, Wazuh, ELK Stack (Elasticsearch, Logstash, Kibana)  
+* **Automation & SOAR:** Shuffle SOAR, Tines, Cortex Responders (with TheHive)  
+* **Collaboration & Notification:** Slack, Email (SMTP/Gmail/Outlook APIs)
+* **Cloud Platforms:** Vultr, Azure (Sentinel, Cloud AD), AWS (EC2, Security Hub), GCP (Cloud Logging)  
+* **Others:** RDP, SMB, Firewalls (pfSense, iptables, UFW), Active Directory, VirusTotal, AbuseIPDB
 
 ## Projects Overview
 
@@ -24,7 +25,7 @@ This repository contains **hands-on Security Operations Center (SOC) projects** 
 | ------------------------ | ------------------------------------------------------------------- | ----------- | --------------------------- |
 | **Active Directory 1.0** | Full AD environment setup with Splunk alerting & Shuffle automation | ✅ Completed | `Active-Directory-Project/` |
 | **Wazuh-SOAR-TheHive Pipeline** | Wazuh + Shuffle SOAR + TheHive integration for automated SOC workflows      | ✅ Completed | `Wazuh-SOAR-TheHive/`       |
-| Future Project 2         | Placeholder for next SOC project                                    | ⬜ Planned   | `Future-Project-2/`         |
+| **SOAR-EDR Project**            | LimaCharlie EDR + Tines SOAR + Slack integration for automated incident response | ✅ Completed | `SOAR-EDR-Project/` |
 
 > Each project includes step-by-step instructions, screenshots, configuration files, and sample logs.
 
@@ -50,7 +51,15 @@ SecurityOperations-Projects/
 │ ├── 05-Email-Alerts/
 │ ├── screenshots/
 │ └── README.md
-├── Future-Project-2/
+|
+├── SOAR-EDR-Project/
+├── 01-Diagram/
+├── 02-Limacharlie-Setup/
+├── 03-LaZagne-Detection/
+├── 04-Tines-Integration/
+├── 05-Slack-Alerts/
+├── screenshots/
+└── README.md
 │
 └── README.md   # Main repo overview
 ```
