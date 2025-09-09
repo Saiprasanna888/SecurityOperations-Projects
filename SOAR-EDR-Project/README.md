@@ -120,7 +120,5 @@ Save screenshots in `screenshots/` folder, such as:
 
 ## Demo Video
 
-Add demo video here:  
-
 [![Watch the demo](https://drive.google.com/uc?id=1gbvLMhOKzXM181mesB0q9ikoSmCdH_jc)](https://drive.google.com/file/d/1gbvLMhOKzXM181mesB0q9ikoSmCdH_jc/view?usp=drivesdk)
 
